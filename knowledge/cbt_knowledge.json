@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": "social_anxiety_01",
+    "topic": "Social anxiety",
+    "source": "InnerGlow educational starter content",
+    "text": "Social anxiety may involve fear of negative evaluation in situations such as presentations, meeting new people, or speaking in groups. A helpful first step is to identify the specific worry and consider whether there is evidence supporting it."
+  },
+  {
+    "id": "cbt_01",
+    "topic": "Challenging anxious thoughts",
+    "source": "InnerGlow educational starter content",
+    "text": "A cognitive behavioural technique is to notice an anxious thought, examine the evidence for and against it, and develop a more balanced alternative. For example, replace 'Everyone will laugh at me' with 'I may feel nervous, but I can prepare and most people are focused on the presentation itself.'"
+  },
+  {
+    "id": "grounding_01",
+    "topic": "Grounding",
+    "source": "InnerGlow educational starter content",
+    "text": "The 5-4-3-2-1 grounding exercise involves noticing five things you can see, four you can feel, three you can hear, two you can smell, and one you can taste. This can help redirect attention toward the present moment."
+  },
+  {
+    "id": "breathing_01",
+    "topic": "Slow breathing",
+    "source": "InnerGlow educational starter content",
+    "text": "When feeling anxious, try breathing gently and comfortably, with a slow inhale and relaxed exhale. Avoid forcing deep breaths. If breathing exercises cause discomfort or dizziness, stop and use another calming technique."
+  },
+  {
+    "id": "exposure_01",
+    "topic": "Gradual exposure",
+    "source": "InnerGlow educational starter content",
+    "text": "Gradual exposure involves practising manageable social situations step by step, such as greeting a classmate, asking a question, or participating in a small group. Progress at a comfortable pace and seek professional guidance when difficulties are severe."
+  },
+  {
+    "id": "support_01",
+    "topic": "Seeking support",
+    "source": "InnerGlow educational starter content",
+    "text": "If anxiety persistently affects studying, relationships, sleep, or everyday functioning, consider speaking with a qualified mental-health professional or university counsellor. An AI chatbot cannot diagnose conditions or replace professional care."
+  }
+]
