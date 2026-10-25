@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Trained model
+emotion/model/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Local RAG model
+models/rag_embedding_model/
+
+# Local vector database
+chroma_db/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
