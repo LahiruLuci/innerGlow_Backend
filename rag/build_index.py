@@ -3,6 +3,7 @@ from pathlib import Path
 import hashlib
 
 import chromadb
+from chromadb.errors import NotFoundError
 import fitz
 from sentence_transformers import SentenceTransformer
 
@@ -122,7 +123,7 @@ def build_index():
         client.delete_collection(
             name=COLLECTION_NAME
         )
-    except ValueError:
+    except (ValueError, NotFoundError):
         pass
 
     collection = client.create_collection(
