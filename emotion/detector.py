@@ -1,12 +1,25 @@
+
 from pathlib import Path
 from transformers import pipeline
 
-MODEL_PATH = Path(__file__).resolve().parent / "model"
+# Local model directory
+LOCAL_MODEL_PATH = Path(__file__).resolve().parent / "model"
+
+# Uploaded Hugging Face model repository
+HF_MODEL_ID = "LahiruLuci/innerglow-emotion-model"
+
+# Prefer local model files when available
+if (LOCAL_MODEL_PATH / "model.safetensors").is_file():
+    MODEL_SOURCE = str(LOCAL_MODEL_PATH)
+    print("Loading InnerGlow emotion model from local files...")
+else:
+    MODEL_SOURCE = HF_MODEL_ID
+    print("Loading InnerGlow emotion model from Hugging Face...")
 
 classifier = pipeline(
     "text-classification",
-    model=str(MODEL_PATH),
-    tokenizer=str(MODEL_PATH),
+    model=MODEL_SOURCE,
+    tokenizer=MODEL_SOURCE,
     device=-1
 )
 
