@@ -14,3 +14,4 @@ streamlit==1.40.2
 groq==1.7.0
 ddgs==9.16.1
 googleapis-common-protos==1.70.0
+tenacity==9.1.2
